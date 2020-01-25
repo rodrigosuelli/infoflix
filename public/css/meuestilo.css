@@ -1,0 +1,289 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #252525;
+    color: white;
+    font-size: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav, .dropdown-menu, .dropdown-menu .dropdown-item{
+    /*background: #1a1a1a;*/
+    background:rgb(22, 23, 24);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #cbcbcb;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #cbcbcb;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: white;
+}
+
+#logo:hover{
+    filter: brightness(160%);
+}
+
+footer{
+    position: relative;
+    background-color: #1a1a1a;
+    background-size: contain;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-image: url("../imagens/animes-wallpaper.jpg");
+    background-position: 50% 30%;
+}
+
+
+footer .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 376px;
+    overflow: hidden;
+    background: repeating-linear-gradient( to bottom, #252525, #171717bd 100%, black 30%, #171717 30%, #171717 180% );
+    z-index: 0;
+    }
+
+
+.overlay-top{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    overflow: hidden;
+    /*background: repeating-linear-gradient( to bottom, #1a1a1a, #171717bd 100%, black 30%, #171717 30%, #171717 180% );
+    */
+    background-image:repeating-linear-gradient(rgb(22, 23, 24), rgba(22, 23, 24, 0.74) 100%, rgb(0, 0, 0) 30%, rgb(22, 23, 24) 30%, rgb(22, 23, 24) 180%);
+    background-color: initial;
+    z-index: 0;
+}
+
+#head {
+    background-image: url('../imagens/series-wallpaper.jpg');
+    background-size: 50%;
+    background-position: 50% 30%;
+    z-index: 0;
+    position: relative;
+    height: 300px;
+    padding: 0;
+}
+
+.main{
+    position: relative;
+    z-index: 1;
+    border-top: 3px solid #333232;
+}
+
+@media only screen and (max-width: 1040px) {
+    footer .footer-anime {
+        display: none;
+    }
+}
+
+.footer-anime{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    z-index: 1;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+#alice_sao{
+    filter: saturate(150%);
+}
+.conteudo{
+    position: relative;
+    top: -230px;
+    margin-bottom: -230px;
+}
+
+
+.form-control, .form-control:focus, .custom-select, .custom-select:focus{
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 1px solid #ced4da;
+}
+
+/*
+*Muda o design do input para fazer upload de imagem
+.custom-file-label::after{
+    color: #ffffff;
+    background-color: #1a1a1a;
+    background-clip: padding-box;
+    width: 100%;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+*/
+
+#btn-adicionar, .add{
+    color: #fff;
+    background-color: #7812bd;
+    border-color: #7812bd;
+}
+
+#btn-adicionar:hover, .add:hover{
+background-color: #480077;
+border-color: #480077;
+}
+
+footer a, a:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.img-anime{
+    box-shadow:0 4px 12px rgba(0,0,0,.35);
+}
+
+.titulo-serie{
+    font-size:2rem;
+    position: relative;
+    top: 58px;
+}
+
+.sinopse{
+    position: relative;
+    top: 53px;
+    color: lightgray;
+    margin-bottom: 53px;
+}
+
+.ui.star.rating .icon{
+    color: #545454!important;
+}
+
+.destaque{
+    position: relative;
+    top:-10px;
+}
+
+.conteudo-2{
+    position: relative;
+    top: -300px;
+    margin-bottom: -300px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+div.owl-two.owl-carousel div.owl-item {
+    max-width: 170px;
+}
+
+.img-hover-zoom{
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+  .dropdown-menu {
+	min-width: 280px;
+}
+
+a.sem-decoracao, a.sem-decoracao:hover{
+    text-decoration:none;
+    color: white;
+}
+
+#icone-pesquisa{
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+#icone-pesquisa:hover{
+    font-size: 1em;
+    color: royalblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .titulo-footer{
+        display: none;
+    }
+    footer .overlay {
+        height: 456px;
+    }
+    #titulo_responsivo{
+        margin-top: 0.8rem;
+    }
+    #sombra_responsiva{
+        box-shadow:none;
+    }
+    #nome_responsivo{
+        font-size: 1.4rem;
+    }
+
+    #nome_responsivo2{
+        font-size: 2.8rem;
+    }
+
+    #nota-anime, #estrelas-anime, #generos-anime, #generos-mostrar{
+        display: none;
+    }
+
+    #sinopse-anime{
+        margin-top: 1.3rem;
+    }
+
+    .owl-carousel{
+        width: 92%!important;
+    }
+    #estrelas-mostrar{
+        margin-left:0rem!important;
+    }
+    #image-series{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    footer .overlay {
+        height: 256px;
+    }
+    #ul2-footer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    footer .overlay {
+        height: 256px;
+    }
+}
+
+

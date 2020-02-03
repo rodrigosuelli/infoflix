@@ -48,24 +48,24 @@ npm install
 yarn
 ```
 
-3 - **Faça uma cópia do o arquivo** `.env.example` e renomeie-a para `.env`
+4 - **Faça uma cópia do arquivo** `.env.example` e renomeie-a para `.env`
 
-4 - **Digite o commando:**
+5 - **Digite o commando:**
 ```
 php artisan key:generate
 ```
 Esse comando vai gerar uma chave de encriptação para sua aplicação. Sem isso o Laravel não vai funcionar.
 
-5 - **Crie um banco de dados vazio com o nome: `bd_infoflix`**. Ou, se preferir, crie um banco de dados vazio com o nome que quiser e depois insira o nome dele no campo DB_DATABASE do arquivo `.env`
+6 - **Crie um banco de dados vazio com o nome que preferir e depois insira o nome escolhido no campo DB_DATABASE do arquivo `.env`
 
-6 - **No arquivo** `.env`, verifique se os campos `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, e `DB_PASSWORD` coincidem com as credenciais do banco de dados que você acabou de criar
+7 - **No arquivo** `.env`, verifique se os campos `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, e `DB_PASSWORD` coincidem com as credenciais do banco de dados que você acabou de criar
 
-7 - **Migre o banco de dados**
+8 - **Migre o banco de dados**
 
 ```
 php artisan migrate
 ```
-8 - **Use o seguinte comando para abrir o projeto no navegador**
+9 - **Use o seguinte comando para abrir o projeto no navegador**
 ```
 php artisan serve
 ```

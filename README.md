@@ -64,5 +64,7 @@ Esse comando vai gerar uma chave de encriptação para sua aplicação. Sem isso
 9 - **Use o seguinte comando para abrir o projeto no navegador**  
 `php artisan serve`
 
+10 - **Se tudo deu errado, recomendo ler o artigo de [instalação](https://laravel.com/docs/6.x/installation) do Laravel**
+
 ## Licença
 Este projeto está licenciado sob a licença [MIT](https://github.com/rodrigosuelli/InfoFlix/blob/master/LICENSE).

@@ -34,11 +34,8 @@ git clone https://github.com/rodrigosuelli/InfoFlix.git
 cd InfoFlix
 ```
 
-2 - **Instale as dependências do Composer**
-
-```
-composer install
-```
+2 - **Instale as dependências do Composer**  
+`composer install`
 
 3 - **Instale as outras dependências com NPM ou Yarn**
 
@@ -50,24 +47,22 @@ yarn
 
 4 - **Faça uma cópia do arquivo** `.env.example` e renomeie-a para `.env`
 
-5 - **Digite o commando:**
-```
+5 - **Digite o commando:**  
+`
 php artisan key:generate
-```
+`
+
 Esse comando vai gerar uma chave de encriptação para sua aplicação. Sem isso o Laravel não vai funcionar.
 
 6 - **Crie um banco de dados vazio com o nome que preferir e depois insira o nome escolhido no campo DB_DATABASE do arquivo `.env`
 
 7 - **No arquivo** `.env`, verifique se os campos `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, e `DB_PASSWORD` coincidem com as credenciais do banco de dados que você acabou de criar
 
-8 - **Migre o banco de dados**
+8 - **Migre o banco de dados** rodando:  
+`php artisan migrate`
 
-```
-php artisan migrate
-```
-9 - **Use o seguinte comando para abrir o projeto no navegador**
-```
-php artisan serve
-```
+9 - **Use o seguinte comando para abrir o projeto no navegador**  
+`php artisan serve`
+
 ## Licença
 Este projeto está licenciado sob a licença [MIT](https://github.com/rodrigosuelli/InfoFlix/blob/master/LICENSE).

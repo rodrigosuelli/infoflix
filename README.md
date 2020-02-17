@@ -4,7 +4,7 @@
 
 Se você quiser dar uma olhada em todas as screenshots, click [aqui](https://drive.google.com/drive/folders/1AMb3vkXEdAruaHRhWOPTsYCWIP5ctUAe?usp=sharing).
 
-## Sobre este Projeto
+## 🤔 Sobre este Projeto
 
 Fiz este site durante meu curso técnico em informática, e como eu estava aprendendo **php**, queria muito desenvolver algo usando **laravel**, pois é um dos melhores frameworks da linguagem. Naquela época eu estava assistindo muitos animes, foi aí que tive a ideia de fazer um site de animes usando laravel.
 
@@ -14,9 +14,9 @@ Fiz este site durante meu curso técnico em informática, e como eu estava apren
 
 - Para acessar a página de cadastro de itens, você precisará digitar `/adicionar` na frente da **url** que estiver usando para abrir o projeto no navegador.
 
-## Instalação
+## 🚀 Instalação
 
-### Pré-requisitos
+### ❗ Pré-requisitos
 
 - Os requisitos para executar este projeto podem ser encontrados [aqui](https://laravel.com/docs/6.x/installation#server-requirements). Se você utiliza Windows, você pode usar um software de **ambiente de desenvolvimento web** como [WAMP](http://www.wampserver.com/en/) ou [XAMPP](https://www.apachefriends.org/pt_br/index.html) para satisfazer esses requisitos.
 
@@ -59,5 +59,5 @@ yarn
 
 10. **Se tudo deu errado, recomendo ler o artigo de [instalação](https://laravel.com/docs/6.x/installation) do Laravel**
 
-## Licença
+## :memo: Licença
 Este projeto está licenciado sob a licença [MIT](https://github.com/rodrigosuelli/InfoFlix/blob/master/LICENSE).

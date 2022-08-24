@@ -2,7 +2,7 @@
 
 ![Screenshot](https://github.com/rodrigosuelli/InfoFlix/blob/master/screenshot.png)
 
-Se você quiser dar uma olhada em todas as screenshots, click [aqui](https://drive.google.com/drive/folders/1AMb3vkXEdAruaHRhWOPTsYCWIP5ctUAe?usp=sharing).
+Se você quiser dar uma olhada em todas as screenshots, click [aqui](https://drive.google.com/drive/folders/15OiQLk1zKxGPFXTvqOXZ-f8aalsnbR7C?usp=sharing).
 
 ## 🤔 Sobre este Projeto
 
